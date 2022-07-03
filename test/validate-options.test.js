@@ -65,6 +65,10 @@ describe("validate options", () => {
       success: [true, false],
       failure: ["string"],
     },
+    ignoreErrors: {
+      success: [true, false],
+      failure: ["string"],
+    },
     api: {
       success: ["legacy", "modern"],
       failure: ["string", true],

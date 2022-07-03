@@ -27,6 +27,13 @@ exports[`validate options should throw an error on the "api" option with "true" 
    -> Read more at https://github.com/webpack-contrib/sass-loader#sassoptions"
 `;
 
+exports[`validate options should throw an error on the "ignoreErrors" option with "string" value 1`] = `
+"Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
+ - options.ignoreErrors should be a boolean.
+   -> Ignores errors during the compilation.
+   -> Read more at https://github.com/webpack-contrib/sass-loader#ignoreerrors"
+`;
+
 exports[`validate options should throw an error on the "implementation" option with "() => {}" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options.implementation should be one of these:
@@ -85,49 +92,49 @@ exports[`validate options should throw an error on the "sourceMap" option with "
 exports[`validate options should throw an error on the "unknown" option with "/test/" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "[]" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "{"foo":"bar"}" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "{}" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "1" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "false" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "test" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "true" value 1`] = `
 "Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.
  - options has an unknown property 'unknown'. These properties are valid:
-   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning? }"
+   object { implementation?, api?, sassOptions?, additionalData?, sourceMap?, webpackImporter?, warnRuleAsWarning?, ignoreErrors? }"
 `;
 
 exports[`validate options should throw an error on the "warnRuleAsWarning" option with "string" value 1`] = `

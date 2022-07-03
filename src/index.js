@@ -66,6 +66,15 @@ async function loader(content) {
   try {
     result = await compile(sassOptions, options);
   } catch (error) {
+    const ignoreErrors =
+      typeof options.ignoreErrors === "boolean" ? options.ignoreErrors : false;
+
+    if (ignoreErrors) {
+      callback(null, "");
+
+      return;
+    }
+
     // There are situations when the `file`/`span.url` property do not exist
     // Modern API
     if (error.span && typeof error.span.url !== "undefined") {

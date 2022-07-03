@@ -58,6 +58,11 @@
       "description": "Treats the '@warn' rule as a webpack warning.",
       "link": "https://github.com/webpack-contrib/sass-loader#warnruleaswarning",
       "type": "boolean"
+    },
+    "ignoreErrors": {
+      "description": "Ignores errors during the compilation.",
+      "link": "https://github.com/webpack-contrib/sass-loader#ignoreerrors",
+      "type": "boolean"
     }
   },
   "additionalProperties": false
