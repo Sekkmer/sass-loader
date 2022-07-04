@@ -1,5 +1,5 @@
 {
-  "name": "sass-loader",
+  "name": "@sekkmer/sass-loader",
   "version": "13.0.2",
   "description": "Sass loader for webpack",
   "license": "MIT",
